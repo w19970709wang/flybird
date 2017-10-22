@@ -1,0 +1,166 @@
+*{
+	padding:0;
+	margin:0;
+}
+.wrapper{
+	width: auto;
+}
+.container {
+	position: relative;
+	width:343px;
+	height: 480px;
+	margin:0 auto;
+	top: 20px;
+    overflow: hidden;
+    background-image: url('img/bg.jpg');
+}
+/*移动的道路*/
+.road{
+	position: absolute;
+	list-style: none;
+	top:420px;
+	width: 686px;
+	left:-343px;
+}
+.road li{
+	float: left;
+}
+.open{
+	position: absolute;
+	left:70px;
+	top:50px;
+}
+#bird{
+	background-image: url("img/bird0.png");
+	position: absolute;
+	width:40px;
+	height: 26px;
+	top: 20px;
+	left: 200px;
+}
+#start{
+	background-image: url("img/start.jpg");
+	position: absolute;
+	width: 85px;
+	height: 29px;
+	top: 200px;
+	left: 120px;
+}
+.num{
+	font-size: 40px;
+	color: white;
+	background-color: black;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	position: absolute;
+	top: 10px;
+	left: 120px;
+}
+.pipe {
+	list-style: none;
+	height: 480px;
+	width: 483px;
+	position: absolute;
+	left: 343px;
+}
+.pipe li{
+	float: left;
+}
+.pipe {
+	list-style: none;
+	height: 480px;
+}
+.pipe li{
+	float: left;
+}
+.up_pipe1 {
+	width: 60px;
+	height: 140px;
+	background-image: url('img/up_pipe.png'),url('img/up_mod.png');
+	background-repeat: repeat-x,repeat-y;
+	background-position: bottom,top;
+	position: absolute;
+	top:0;
+	left: 20px;
+}
+.down_pipe1 {
+	width: 60px;
+	height:140px;
+	background-image: url('img/down_pipe.png'),url('img/down_mod.png');
+	background-repeat: repeat-x,repeat-y;
+	background-position:top,bottom;
+	position: absolute;
+	bottom:56px;
+	left: 20px;
+}
+.up_pipe2 {
+	width: 60px;
+	height: 140px;
+	background-image: url('img/up_pipe.png'),url('img/up_mod.png');
+	background-repeat: repeat-x,repeat-y;
+	background-position: bottom,top;
+	position: absolute;
+	top:0;
+	left: 220px;
+}
+.down_pipe2 {
+	width: 60px;
+	height: 140px;
+	background-image: url('img/down_pipe.png'),url('img/down_mod.png');
+	background-repeat: repeat-x,repeat-y;
+	background-position:top,bottom;
+	position: absolute;
+	bottom:56px;
+	left: 220px;
+}
+.up_pipe3 {
+	width: 60px;
+	height: 140px;
+	background-image: url('img/up_pipe.png'),url('img/up_mod.png');
+	background-repeat: repeat-x,repeat-y;
+	background-position: bottom,top;
+	position: absolute;
+	top:0;
+	left: 420px;
+}
+.down_pipe3 {
+	width: 60px;
+	height: 140px;
+	background-image: url('img/down_pipe.png'),url('img/down_mod.png');
+	background-repeat: repeat-x,repeat-y;
+	background-position:top,bottom;
+	position: absolute;
+	bottom:56px;
+	left: 420px;
+}
+.over{
+	position: absolute;
+	top: 100px;
+	left: 70px;
+}
+.message{
+	position: absolute;
+	top: 150px;
+	left: 40px;
+}
+.ok{
+	position: absolute;
+	top: 290px;
+	left: 40px;
+}
+.submit{
+	position: absolute;
+	top: 290px;
+	left: 160px;
+}
+.result{
+
+}
+.flyBird{
+	position: absolute;
+	top: 140px;
+	left: 100px;
+	width: 40px;
+	height: 29px;
+}

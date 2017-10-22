@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript" src="jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="fly.js"></script>
+	<link rel="stylesheet" type="text/css" href="fly.css">
+</head>
+<body>
+<div class="wrapper">
+	<div class="container">
+		<!-- 一直移动的道路 -->
+		<ul class="road">
+			<li>
+				<img src="img/banner.jpg">
+			</li>
+			<li>
+				<img src="img/banner.jpg">
+			</li>
+		</ul>
+		<!-- 开始页面的标题及开始按钮 -->
+		<div class="start_page">
+			<div class="open">
+				<img src="img/head.jpg">
+				<div id="bird"></div>
+			</div>
+			<div id="start">
+			</div>
+		</div>
+		<!-- 飞的鸟 -->
+		<div class="flyBird">
+		</div>
+		<!-- 不停出现的管道 -->
+		<ul class="pipe">
+			<li class="pipe1">
+				<div class="up_pipe1"></div>
+				<div class="down_pipe1"></div>
+			</li>
+			<li class="pipe2">
+				<div class="up_pipe2"></div>
+				<div class="down_pipe2"></div>
+			</li>
+			<li class="pipe3">
+				<div class="up_pipe3"></div>
+				<div class="down_pipe3"></div>
+			</li>
+		</ul>
+		<!-- 计算分数的部分 -->
+		<div class="num">0</div>
+		<!-- 鸟碰到柱子后出现的界面 -->
+		<div class="end_page">
+			<img class="over" src="img/game_over.jpg">
+			<img class="message" src="img/message.jpg">
+			<img class="ok" src="img/ok.jpg">
+			<img class="submit" src="img/submit.jpg">
+			<div class="result">
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
